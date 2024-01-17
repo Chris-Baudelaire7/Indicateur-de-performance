@@ -179,4 +179,4 @@ app.layout = html.Div(id="main-app", className="main-app", children=[
     navbar, header, cards, dve2, dve3
 ])
 
-app.run_server(debug=False)
+app.run_server(debug=False, host="0.0.0.0")
