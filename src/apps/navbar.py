@@ -42,7 +42,7 @@ navbar = html.Div(className="header container-fluid p-2 mb-5 bg-black", children
                     ff="serif",
                     className="m3 ms-3",
                     children=[
-                       dbc.Button(href="https://github.com/Chris-Baudelaire7/KPI", className="btn", children=[
+                       dbc.Button(href="https://github.com/Chris-Baudelaire7/Indicateur-de-performance", className="btn", children=[
                            DashIconify(icon="radix-icons:github-logo",
                                        width=30), " Voir sur github"
                        ])
